@@ -1,11 +1,11 @@
 packages:
-  - name: test plugin
+  - name: "test plugin"
     description: "My test plugin"
-    version: 1.0.0
+    version: "1.0.0"
     exec:
-      - node
-      - {pluginDir}/test_plugin.js
-    interface: js
+      - "node"
+      - "{pluginDir}/test_plugin.js"
+    interface: "js"
     tasks:
-      - name: Example Task
+      - name: "Example Task"
         description: "An example task for the plugin"
